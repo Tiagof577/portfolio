@@ -52,38 +52,18 @@
       <div class="contact__fotter">
         <p class="contact__fotter--follow">Follow me</p>
         <div class="contact__fotter--links">
-          <ul class="social__list social__list--down">
-            <li class="social__item social__item--linkedin">
-              <router-link
-                class="social__link"
-                to="/"
-                tag="img"
-                :src="require('@/assets/icons8-linkedin-2-20.png')"
-              />
+          <ul class="social__list--down">
+            <li class="social__item">
+              <i class="fab fa-linkedin-in social__logo"></i>
             </li>
-            <li class="social__item social__item--twitter">
-              <router-link
-                class="social__link"
-                to="/"
-                tag="img"
-                :src="require('@/assets/icons8-twitter-20.png')"
-              />
+            <li class="social__item">
+              <i class="fab fa-twitter social__logo"></i>
             </li>
-            <li class="social__item social__item--instagram">
-              <router-link
-                class="social__link"
-                to="/"
-                tag="img"
-                :src="require('@/assets/icons8-instagram-20.png')"
-              />
+            <li class="social__item">
+              <i class="fab fa-instagram social__logo"></i>
             </li>
-            <li class="social__item social__item--github">
-              <router-link
-                class="social__link"
-                to="/"
-                tag="img"
-                :src="require('@/assets/icons8-github-20.png')"
-              />
+            <li class="social__item">
+              <i class="fab fa-github social__logo"></i>
             </li>
           </ul>
         </div>
