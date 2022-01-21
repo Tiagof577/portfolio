@@ -15,24 +15,31 @@
         <ul class="nav__list">
           <li class="nav__item">
             <i
-              class="fa fa-home fa-2x nav__item--logo active"
+              class="fa fa-home fa-2x nav__item--logo"
               aria-hidden="true"
+              :to="{ name: 'home' }"
             ></i>
           </li>
           <li class="nav__item">
             <i
               class="fa fa-user-o fa-2x nav__item--logo"
               aria-hidden="true"
+              href="#about"
             ></i>
           </li>
           <li class="nav__item">
             <i
               class="fa fa-list-ul fa-2x nav__item--logo"
               aria-hidden="true"
+              href="#resume"
             ></i>
           </li>
           <li class="nav__item">
-            <i class="fa fa-link fa-2x nav__item--logo" aria-hidden="true"></i>
+            <i
+              class="fa fa-link fa-2x nav__item--logo"
+              aria-hidden="true"
+              href="#contacts"
+            ></i>
           </li>
         </ul>
       </nav>
